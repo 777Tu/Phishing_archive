@@ -1,0 +1,77 @@
+
+h5 {
+  color: #1877F2;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+.logo-d {
+  display: inline-block;
+  vertical-align: middle;
+ 
+}
+
+.select {
+  text-align: center;
+}
+
+
+.select-it {
+  outline: none;
+  border: none;
+  background: inherit;
+}
+
+
+.facebook-logo {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.logo-f {
+  width: 14%;
+}
+
+.login-details {
+  text-align: center;
+  
+  
+}
+.enter {
+  text-align: left;
+  width: 90%;
+  height: 56px;
+  margin: 7px;
+  border-radius: 10px;
+  border: solid gray 1px;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 20px;
+  outline: none;
+}
+.login {
+  text-align: center;
+  width: 95%;
+  border-radius: 30px;
+  height: 46px;
+  color: white;
+  background: #1877F2;
+}
+
+.create-new {
+  margin-top: 28%;
+  text-align: center;
+}
+.create{
+  border-radius: 30px;
+  border: blue solid 1px;
+  padding: 15px 0;
+  color:  #1877F2;
+}
+.meta-logo {
+  text-align: center;
+}
+.logo-m {
+  width: 18%;
+  
+}
