@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: phishing-archive
+    env: python
+    buildCommand: ''
+    startCommand: gunicorn Phishing_FBPF.app:app
+    envVars:
+      - key: FLASK_ENV
+        value: production
