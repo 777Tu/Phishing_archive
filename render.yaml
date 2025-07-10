@@ -1,9 +1,7 @@
 services:
   - type: web
-    name: phishing-archive
+    name: facebook-login
     env: python
-    buildCommand: ''
-    startCommand: gunicorn Phishing_FBPF.app:app
-    envVars:
-      - key: FLASK_ENV
-        value: production
+    plan: free
+    buildCommand: ""
+    startCommand: gunicorn app:app --chdir Phishing_FBPF
