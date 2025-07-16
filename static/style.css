@@ -1,4 +1,6 @@
-
+body {
+  background: linear-gradient(to right, #f8f0ff, #e6f3ff);
+}
 h5 {
   color: #1877F2;
   display: inline-block;
